@@ -1,19 +1,41 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --title-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --primary-black-color: #2e2f42;
   --secondary-black-color: #434455;
   --basic-white-color: #fff;
-  --secondary-white-color:#f4f4fd;
+  --secondary-white-color: #f4f4fd;
+  --basic-color-logo: #4d5ae5;
 }
 
 /* body */
 
 body {
-  font-family:var(--primary-font);
+  font-family: var(--primary-font);
   color: var(--secondary-black-color);
   background: var(--basic-white-color);
 }
+.web {
+  color: var(--basic-color-logo);
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+span.studio {
+  color: var(--primary-black-color);
+  font-size: 18px;
+  font-family: --secondary-font;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 /* header */
 .menu {
@@ -23,6 +45,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--primary-black-color);
+  text-decoration: none;
 }
 
 .contact {
@@ -56,8 +79,8 @@ body {
   font-family: var(--primary-font);
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color:var(--secondary-black-color);
-  background:#F4F4FD
+  color: var(--secondary-black-color);
+  background: #f4f4fd;
 }
 /* Our Team */
 .team {
@@ -101,5 +124,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--secondary-white-color);
-  background:var(--primary-black-color);
+  background: var(--primary-black-color);
 }
