@@ -50,9 +50,16 @@ body {
   letter-spacing: 0.32px;
 }
 .nav-list.link{
-  color:var(--primary-black-color);
+  color:var(--primary-black-color); 
 }
-.nav-list.link:hover,
+
+.nav-list.link:hover{
+  color: var(--hover-color);
+}
 .nav-list.link:focus{
-  color: var(#404bbf);
+  color: var(--hover-color);
+}
+.link:hover,
+.link:focus  {
+  color: var(--hover-color);
 }
