@@ -49,10 +49,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.nav-list.list.link{
+.nav-list.link{
   color:var(--primary-black-color);
 }
-.nav-list.list.link:hover,
-.nav-list.list.link:focus{
+.nav-list.link:hover,
+.nav-list.link:focus{
   color: var(#404bbf);
 }
