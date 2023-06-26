@@ -23,9 +23,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;}
+
   
-  
-.web link{
+.web.link{
 text-decoration: none;
 }
 
