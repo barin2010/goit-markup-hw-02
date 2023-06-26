@@ -28,7 +28,9 @@ body {
 .web.link{
 text-decoration: none;
 }
-
+.menu.list{
+  list-style: none;
+}
 
 span.studio {
   color: var(--primary-black-color);
