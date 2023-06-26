@@ -29,16 +29,16 @@ body {
 .logo-link-studio {
   color: var(--primary-black-color);
   font-size: 18px;
-  font-family:var(--secondary-font);
+  font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.link{
+.link {
   text-decoration: none;
 }
-.list{
+.list {
   list-style: none;
 }
 .nav-list {
@@ -48,4 +48,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.nav-list.list.link{
+  color:var(--primary-black-color);
+}
+.nav-list.list.link:hover,
+.nav-list.list.link:focus{
+  color: var(#404bbf);
 }
