@@ -20,7 +20,7 @@ body {
 .logo-link {
   color: var(--basic-color-logo);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -29,13 +29,19 @@ body {
 .logo-link-studio {
   color: var(--primary-black-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family:var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.nav-list.list {
+.link{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+.nav-list {
   color: var(--primary-black-color);
   font-size: 16px;
   font-family: var(--primary-font);
