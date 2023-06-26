@@ -67,13 +67,13 @@ span.studio {
 
 
 
-.contact {
+.contact.list {
   font-size: 16px;
   font-family: var(--primary-font);
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--secondary-black-color);
-  font-style: normal;
+  
   
 }
 
