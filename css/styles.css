@@ -10,6 +10,7 @@
 
 /* body */
 
+/* header */
 body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
@@ -25,7 +26,8 @@ body {
   text-transform: uppercase;}
 
   
-.web.link{
+.web.link ,
+.menu.link{
 text-decoration: none;
 }
 .list{
@@ -44,7 +46,7 @@ span.studio {
 }
 
 
-/* header */
+
 .menu {
   font-size: 16px;
   font-family: var(--primary-font);
