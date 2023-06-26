@@ -25,6 +25,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.web.link {
+  text-decoration: none;
+}
 span.studio {
   color: var(--primary-black-color);
   font-size: 18px;
@@ -33,9 +36,6 @@ span.studio {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
-}
-.web.link{
   text-decoration: none;
 }
 
@@ -49,6 +49,7 @@ span.studio {
   letter-spacing: 0.32px;
   color: var(--primary-black-color);
   text-decoration: none;
+  link{text-decoration: none}
 }
 .list{
   text-decoration: none;
@@ -60,6 +61,7 @@ span.studio {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--secondary-black-color);
+  
 }
 
 .main {
