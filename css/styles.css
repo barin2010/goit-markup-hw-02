@@ -15,16 +15,20 @@ body {
   color: var(--secondary-black-color);
   background: var(--basic-white-color);
 }
-.web link {
+.web {
   color: var(--basic-color-logo);
   font-size: 18px;
   font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
+  text-transform: uppercase;}
+  
+  
+.web link{
+text-decoration: none;
 }
+
 
 span.studio {
   color: var(--primary-black-color);
