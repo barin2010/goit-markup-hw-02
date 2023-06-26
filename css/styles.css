@@ -34,8 +34,13 @@ text-decoration: none;
 .list{
   list-style: none;
   }
-
-
+.list.menu.link{
+  color: var(--primary-black-color);
+}
+.list.menu.link:hover,
+.list.menu.link:focus{
+  color: var(--hover-color);
+}
 span.studio {
   color: var(--primary-black-color);
   font-size: 18px;
