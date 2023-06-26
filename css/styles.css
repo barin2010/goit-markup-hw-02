@@ -37,6 +37,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: var(--primary-black-color);
 }
 .list {
   list-style: none;
@@ -49,17 +50,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.nav-list.link{
-  color:var(--primary-black-color); 
-}
 
-.nav-list.link:hover{
-  color: var(--hover-color);
-}
-.nav-list.link:focus{
-  color: var(--hover-color);
-}
+
+
 .link:hover,
 .link:focus  {
   color: var(--hover-color);
+}
+.adress-list{
+  font-style: normal;
 }
