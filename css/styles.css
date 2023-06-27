@@ -3,7 +3,7 @@
   --secondary-font: "Raleway", sans-serif;
   --primary-black-color: #2e2f42;
   --secondary-black-color: #434455;
-  --basic-white-color: #FFFFFF;
+  --basic-white-color: #ffffff;
   --secondary-white-color: #f4f4fd;
   --basic-color-logo: #4d5ae5;
   --hover-color: #404bbf;
@@ -13,9 +13,9 @@
 
 -----------------------------/* header */-----------------------------------
 body {
-  font-family:"Roboto",sans-serif;
-  color: #434455;
-  background: #FFFFFF;
+  font-family: var(--primary-font);
+  color: var(--secondary-black-color);
+  background: var(--basic-white-color);
 }
 
 /* .header { }*/
@@ -31,8 +31,6 @@ body {
   list-style: none;
 }
 
-
-
 .header-logo {
   color: var(--basic-color-logo);
   font-size: 18px;
@@ -42,16 +40,15 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.header-logo span {
+.header-studio {
   color: var(--primary-black-color);
   font-size: 18px;
   font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px; 
+  letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
 
 /* .header-list {
  
@@ -66,7 +63,15 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+}
+.header-menu-item:hover,
+.header-menu-item:focus {
+  color: var(--hover-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* .header-address {
@@ -79,7 +84,7 @@ body {
   font-size: 16px;
   font-family: Roboto;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .address-contacts-mail,
@@ -88,8 +93,8 @@ body {
   font-size: 16px;
   font-family: Roboto;
   line-height: 24px;
-  letter-spacing: 0.32px;
-  font-style: normal
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 /* .address-contacts-tel {
@@ -111,16 +116,29 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.07em;
 }
 
 .business-button {
+  font-family: var(--primary-font);
   color: var(--basic-white-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--basic-color-logo);
+  cursor: pointer;
+}
+.business-button:hover,
+.business-button:focus {
+  background: var(--hover-color);
+  font-family: var(--primary-font);
+  color: var(--basic-white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 /* -----------------------------strategy-------------------------------------------------------- */
@@ -136,14 +154,14 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.025em;
 }
 
 .strategy-page-description {
   color: var(--secondary-black-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* ------------------------------------------what are we doing ------------------------------------ */
@@ -158,7 +176,7 @@ body {
 
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.045em;
   text-transform: capitalize;
 }
 
@@ -171,7 +189,7 @@ body {
 /* --------------------------------------our team ----------------------------------------- */
 
 .team {
-  background: var(--secondary-white-color);
+  
 }
 
 .team-team {
@@ -185,6 +203,7 @@ body {
 }
 
 .team-list {
+background: var(--secondary-white-color);
 }
 
 .team-images {
@@ -222,7 +241,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.footer-logo span {
+.footer-studio{
   color: var(--secondary-white-color);
   font-size: 18px;
   font-family: var(--secondary-font);
@@ -259,7 +278,7 @@ body {
   background: var(--secondary-white-color);
 }
 
-.button-text {
+.text {
   color: var(--basic-color-logo);
   text-align: center;
   font-size: 16px;
