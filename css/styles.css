@@ -189,7 +189,6 @@ body {
 /* --------------------------------------our team ----------------------------------------- */
 
 .team {
-  
 }
 
 .team-team {
@@ -198,12 +197,12 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.045em;
   text-transform: capitalize;
 }
 
 .team-list {
-background: var(--secondary-white-color);
+  background: var(--secondary-white-color);
 }
 
 .team-images {
@@ -215,7 +214,7 @@ background: var(--secondary-white-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.025em;
 }
 
 .team-description {
@@ -223,7 +222,7 @@ background: var(--secondary-white-color);
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* ------------------------------------------footer-------------------------------- */
@@ -238,16 +237,16 @@ background: var(--secondary-white-color);
   font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-studio{
+.footer-studio {
   color: var(--secondary-white-color);
   font-size: 18px;
   font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -255,7 +254,7 @@ background: var(--secondary-white-color);
   color: var(--secondary-white-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* ---------------------------------PORTFOLIO----------------------------------------- */
@@ -276,15 +275,16 @@ background: var(--secondary-white-color);
 
 .button-description {
   background: var(--secondary-white-color);
-}
-
-.text {
   color: var(--basic-color-logo);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
+}
+
+.text {
+  
 }
 
 /* ---------------------------------------concept------------------------------------- */
