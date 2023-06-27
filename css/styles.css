@@ -12,7 +12,7 @@
 /* body */
 
 -----------------------------/* header */-----------------------------------
-.body {
+body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
   background: var(--basic-white-color);
@@ -74,8 +74,9 @@
   letter-spacing: 0.02em;
 }
 
-/* .header-address {
-} */
+.header-address {
+  font-style: normal;
+}
 
 /* .address {} */
 
@@ -96,7 +97,12 @@
   letter-spacing: 0.02em;
   font-style: normal;
 }
-
+.address-contacts-mail:hover,
+.address-contacts-mail:focus,
+.address-contacts-tel:hover,
+.address-contacts-tel:focus {
+  color: var(--hover-color);
+}
 /* .address-contacts-tel {
   
   } */
@@ -116,7 +122,7 @@
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.02em;
 }
 
 .business-button {
@@ -176,7 +182,7 @@
 
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.045em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -189,6 +195,7 @@
 /* --------------------------------------our team ----------------------------------------- */
 
 .team {
+  background-color: var(--secondary-white-color);
 }
 
 .team-team {
@@ -197,12 +204,11 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.045em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .team-list {
-  background: var(--secondary-white-color);
 }
 
 .team-images {
@@ -281,10 +287,16 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: var(--primary-font);
+  cursor: pointer;
+}
+.button-description:hover,
+.button-description:focus {
+  color: var(--basic-white-color);
+  background-color: var(--hover-color);
 }
 
 .text {
-  
 }
 
 /* ---------------------------------------concept------------------------------------- */
