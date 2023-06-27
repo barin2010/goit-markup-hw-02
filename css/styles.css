@@ -13,9 +13,9 @@
 
 -----------------------------/* header */-----------------------------------
 body {
-  font-family: var(--primary-font);
-  color: var(--secondary-black-color);
-  background: var(--basic-white-color);
+  font-family:"Roboto",sans-serif;
+  color: #434455;
+  background: #FFFFFF;
 }
 
 /* .header { }*/
