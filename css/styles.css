@@ -12,6 +12,8 @@
 /* body */
 
 -----------------------------/* header */-----------------------------------
+
+
 body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
@@ -209,6 +211,7 @@ body {
 }
 
 .team-list {
+  background-color: var(--basic-white-color);
 }
 
 .team-images {
