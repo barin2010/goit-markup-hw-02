@@ -12,7 +12,7 @@
 /* body */
 
 -----------------------------/* header */-----------------------------------
-body {
+.body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
   background: var(--basic-white-color);
