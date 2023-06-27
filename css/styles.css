@@ -3,7 +3,7 @@
   --secondary-font: "Raleway", sans-serif;
   --primary-black-color: #2e2f42;
   --secondary-black-color: #434455;
-  --basic-white-color: #fff;
+  --basic-white-color: #FFFFFF;
   --secondary-white-color: #f4f4fd;
   --basic-color-logo: #4d5ae5;
   --hover-color: #404bbf;
@@ -23,10 +23,20 @@ body {
 /* .header-menu {
 } */
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+
+
 .header-logo {
   color: var(--basic-color-logo);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -35,12 +45,13 @@ body {
 .header-logo span {
   color: var(--primary-black-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.54px; 
   text-transform: uppercase;
 }
+
 
 /* .header-list {
  
@@ -78,6 +89,7 @@ body {
   font-family: Roboto;
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-style: normal
 }
 
 /* .address-contacts-tel {
