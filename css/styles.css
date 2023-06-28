@@ -13,7 +13,7 @@
 
 -----------------------------/* header */-----------------------------------
 
-body{
+body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
   background-color:var(--basic-white-color);
@@ -197,7 +197,7 @@ body{
 /* --------------------------------------our team ----------------------------------------- */
 
 .team {
-  background-color: var(--secondary-white-color);
+  background-color: var(--basic-white-color);
 }
 
 .team-team {
