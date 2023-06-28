@@ -197,7 +197,7 @@ body {
 /* --------------------------------------our team ----------------------------------------- */
 
 .team {
-  background-color: var(--basic-white-color);
+  background-color: var(--secondary-white-color);
 }
 
 .team-team {
@@ -210,11 +210,13 @@ body {
   text-transform: capitalize;
 }
 
-.team-list {
-  background-color: var(--basic-white-color);
+/* .team-list {
+  background-color: var(--basic-white-color); */
 }
 
-/* .team-images { */
+.team-images {
+  background-color: var(--basic-white-color);
+}
 
 
 .team-family {
