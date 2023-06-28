@@ -15,7 +15,13 @@ body {
   background-color: var(--basic-white-color);
 }
 
+.link {
+  text-decoration: none;
+}
 
+.list {
+  list-style: none;
+}
 -----------------------------/* header */-----------------------------------
 
 
@@ -25,13 +31,6 @@ body {
 /* .header-menu {
 } */
 
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
 
 .header-logo {
   color: var(--basic-color-logo);
