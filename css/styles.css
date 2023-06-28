@@ -9,11 +9,21 @@
   --hover-color: #404bbf;
 }
 
+
+
+
+-----------------------------/* header */-----------------------------------
+
 body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
   background-color: var(--basic-white-color);
 }
+
+/* .header { }*/
+
+/* .header-menu {
+} */
 
 .link {
   text-decoration: none;
@@ -22,15 +32,6 @@ body {
 .list {
   list-style: none;
 }
------------------------------/* header */-----------------------------------
-
-
-
-/* .header { }*/
-
-/* .header-menu {
-} */
-
 
 .header-logo {
   color: var(--basic-color-logo);
