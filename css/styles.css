@@ -9,15 +9,15 @@
   --hover-color: #404bbf;
 }
 
-/* body */
-
------------------------------/* header */-----------------------------------
-
 body {
   font-family: var(--primary-font);
   color: var(--secondary-black-color);
-  background-color:var(--basic-white-color);
+  background-color: var(--basic-white-color);
 }
+
+
+-----------------------------/* header */-----------------------------------
+
 
 
 /* .header { }*/
