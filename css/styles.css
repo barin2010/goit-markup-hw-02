@@ -111,8 +111,8 @@ body {
 
 /* ----------------------------main----------------------------------- */
 
-.main-contaner {
-}
+/* .main-contaner {
+} */
 
 .business {
   background: var(--primary-black-color);
@@ -174,8 +174,8 @@ body {
 
 /* ------------------------------------------what are we doing ------------------------------------ */
 
-.doing {
-}
+/* .doing {
+} */
 
 .doing-possibilities {
   color: var(--primary-black-color);
@@ -188,11 +188,11 @@ body {
   text-transform: capitalize;
 }
 
-.doing-list {
-}
+/* .doing-list { */
 
-.doing-images {
-}
+
+/* .doing-images {
+} */
 
 /* --------------------------------------our team ----------------------------------------- */
 
@@ -214,8 +214,8 @@ body {
   background-color: var(--basic-white-color);
 }
 
-.team-images {
-}
+/* .team-images { */
+
 
 .team-family {
   color: var(--primary-black-color);
@@ -270,17 +270,17 @@ body {
 
 /* ---------------------------------------main-------------------------------------- */
 
-.main {
-}
+/* .main {
+} */
 
-.buttons {
-}
+/* .buttons {
+} */
 
-.button-list {
-}
+/* .button-list {
+} */
 
-.button-link {
-}
+/* .button-link {
+} */
 
 .button-description {
   background: var(--secondary-white-color);
@@ -299,34 +299,34 @@ body {
   background-color: var(--hover-color);
 }
 
-.text {
-}
+/* .text {
+} */
 
 /* ---------------------------------------concept------------------------------------- */
 
-.concept {
-}
+/* .concept {
+} */
 
-.concept-list {
-}
+/* .concept-list {
+} */
 
-.concept-images {
-}
+/* .concept-images {
+} */
 
-.images-logo {
-}
+/* .images-logo {
+} */
 
 .images-logo-name {
   color: var(--primary-black-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .images-logo-description {
   color: var(--secondary-black-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
