@@ -12,7 +12,7 @@
 
 
 
------------------------------/* header */-----------------------------------
+/* ----------------------------------------------body----------------------- */
 
 body {
   font-family: var(--primary-font);
@@ -210,9 +210,9 @@ body {
   text-transform: capitalize;
 }
 
-.team-list , .list {
+/* .team-list , .list {
   /* background-color: var(--basic-white-color); */
-}
+
 
 .team-images {
   background-color: var(--basic-white-color);
